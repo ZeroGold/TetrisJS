@@ -1076,7 +1076,7 @@ define(["require", "exports"], function (require, exports) {
                 var x = parseInt(element.attributes["x"].value);
                 var y = parseInt(element.attributes["y"].value);
                 if (_this.nextPieceMatrix[y][x] > 0)
-                    element.style["background-color"] = 'blue';
+                    element.style["background-color"] = 'green';
                 else
                     element.style["background-color"] = 'white';
             });
