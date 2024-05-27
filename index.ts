@@ -1454,7 +1454,7 @@ export class MyApp {
             for (let j = 0; j < 10; j++) { 
                 let piece = ' ';
                 tableHtml += "<td tetris-block x='" + j + "' y='" + i + 
-                    "' style='width:" + boxSize + "px;height:" + boxSize + "px;background-color:lightblue;" +
+                    "' style='width:" + boxSize + "px;height:" + boxSize + "px;background-color:white;" +
                     "border:1px black solid;font-size: .75rem;'>" + piece + "</td>";
             }
             tableHtml += "</tr>";
