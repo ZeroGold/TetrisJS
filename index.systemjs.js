@@ -1102,7 +1102,7 @@ System.register([], function (exports_1, context_1) {
                         for (var j = 0; j < 10; j++) {
                             var piece = ' ';
                             tableHtml += "<td tetris-block x='" + j + "' y='" + i +
-                                "' style='width:" + boxSize + "px;height:" + boxSize + "px;background-color:lightblue;" +
+                                "' style='width:" + boxSize + "px;height:" + boxSize + "px;background-color:white;" +
                                 "border:1px black solid;font-size: .75rem;'>" + piece + "</td>";
                         }
                         tableHtml += "</tr>";
